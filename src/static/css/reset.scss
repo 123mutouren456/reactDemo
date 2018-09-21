@@ -1,0 +1,95 @@
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+i,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  box-sizing: border-box;
+}
+body {
+  font-size: 12px;
+  background-color: #ffffff;
+  font-family: "Microsoft Yahei";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+  margin-top: 0px !important;
+}
+img {
+  border: 0 none;
+  /*vertical-align: middle;*/
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,a:focus {
+  text-decoration: none;
+}
+a:focus {
+  outline: none;
+}
+input,
+button {
+  border: 0 none;
+  outline-style: none;
+}
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+.hidediv {
+  display: none;
+}
+.activeli {
+  border-bottom: 2px solid #5f9cdd;
+}
+.active-color {
+  color: #5f9cdd;
+}
+.active-border {
+  border-bottom: 2px solid #fff;
+}

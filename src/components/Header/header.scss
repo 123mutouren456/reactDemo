@@ -1,0 +1,133 @@
+.headerbg{
+    background: url(../../static/imgs/headerbg.png) repeat-x top center;
+    position: relative;
+    z-index: 10;
+}
+.header {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 115px;
+    z-index: 1;
+    .topbar {
+        .toplogo {
+            padding-top: 13px;
+            width: 155px;
+            img {
+                width: 100%;
+                display: block
+            }
+        }
+        .navbar-content {
+            margin-left: 100px;
+            &>li {
+                position: relative;
+                display: inline-block;
+                width: 100px;
+                text-align: center;
+                border-bottom: 2px solid transparent;
+                &>a {
+                    display: block;
+                    color: #fff;
+                    line-height: 48px;
+                    box-sizing: border-box;
+                }
+                .subnav {
+                    position: absolute;
+                    display: none;
+                    width: 110px;
+                    left: -5px;
+                    top: 50px;
+                    background: rgba(18, 138, 214, 0.9);
+                    background-color: #128ad6 \9;
+                    padding: 10px 0;
+                    z-index: 2;
+                    li {
+                        padding: 5px 0;
+                        a {
+                            display: inline-block;
+                            color: #fff;
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            border-bottom: 2px solid transparent;
+                            &:hover {
+                                border-color: #fff;
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    border-color: #fff;
+                    .subnav {
+                        display: block;
+                    }
+                }
+                .kesource {
+                    width: 850px;
+                    left: -175px;
+                    padding: 25px 0;
+                    .info {
+                        box-sizing: border-box;
+                        width: 200px;
+                        margin: 0 70px;
+                        h4 {
+                            color: #fff;
+                            font-size: 12px;
+                            font-weight: 700;
+                            margin-bottom: 10px;
+                            text-align: center;
+                        }
+                        p {
+                            line-height: 1.6;
+                            color: #fff;
+                            text-align: left;
+                        }
+                    }
+                    .list {
+                        dl {
+                            margin-left: 30px;
+                            text-align: left;
+                            float: left;
+                            width: 140px;
+                            dt {
+                                height: 30px;
+                                a {
+                                    color: #fff;
+                                    font-weight: 700;
+                                }
+                            }
+                            dd {
+                                margin-bottom: 6px;
+                                a {
+                                    color: #d1ebff;
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .usernav {
+            a {
+                display: inline-block;
+                margin-left: 30px;
+                color: #fff;
+                line-height: 50px;
+                i {
+                    background-color: #ff0000;
+                    font-style: normal;
+                    display: inline-block;
+                    border-radius: 50%;
+                    color: #fff;
+                    width: 12px;
+                    height: 12px;
+                    line-height: 12px;
+                    font-size: 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
